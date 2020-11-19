@@ -8,11 +8,14 @@ default: &default
 development:
   <<: *default
   database: petadmin_development
+  password: 123456
 
 test:
   <<: *default
   database: petadmin_exchance_test
+  password: 123456
 
 production:
   <<: *default
   database: petadmin_exchance_production
+  password: 123456
